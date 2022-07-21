@@ -23,4 +23,11 @@ dvc get repo_link folder/file -o path
 ```
 dvc add data/data.xml
 ```
-
+```
+dvc remote add name gdrive://key
+```
+```
+Inorder to switch between version for both code and data 
+git checkout branch
+dvc checkout
+```
